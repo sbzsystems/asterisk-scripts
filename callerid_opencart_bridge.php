@@ -1,9 +1,15 @@
 <?php
- 
+// This opencart script enables seamless integration between platforms such as Issabel, FreePBX, and others, 
+// enhancing their functionality by displaying caller ID information based on the clients' data in Opencart.
+//   1. Access your Opencart installation directory.
+//   2. Locate the folder where your Opencart files are stored.
+//   3. Create a new folder within the Opencart directory and name it "issabel."
+//   4. Move the script you have to the newly created "issabel" folder.
+//By following these steps, you will successfully create the "issabel" folder within Opencart and place the provided script inside it.
 	
-	require "../config.php";
+require "../config.php";
 	
-	$host = DB_HOSTNAME;
+$host = DB_HOSTNAME;
 $user = DB_USERNAME;
 $password = DB_PASSWORD;
 $db = DB_DATABASE;
