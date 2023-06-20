@@ -1,4 +1,10 @@
 <?php
+// copy to /usr/local/issabel
+// create a cronjob. 
+// Save the file missed_calls.cron that contains   
+// * * * * *  root /usr/bin/php -q /usr/local/issabel/missed_calls_to_email.php
+// to folder /etc/cron.d/
+
 	//error_reporting(0);
 	/*------------------------------------------------------------------------
 		# copyright Copyright (C) 2018 sbzsystems.com. All Rights Reserved.
